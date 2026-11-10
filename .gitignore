@@ -1,0 +1,32 @@
+# Local .terraform directories (contains provider binaries and modules)
+**/.terraform/*
+
+# .terraform.lock.hcl stores provider dependency locks. 
+# ONLY uncomment the next line if you intentionally want to ignore provider locks.
+# .terraform.lock.hcl
+
+# State files (Contains sensitive, unencrypted infrastructure data)
+*.tfstate
+*.tfstate.*
+
+# Crash logs
+crash.log
+crash.*.log
+
+# Exclude all variable files as they often contain sensitive keys/secrets
+*.tfvars
+*.tfvars.json
+
+# Ignore override files as they are meant for local tweaks
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+
+# Include override directories
+# override.tf.dir/
+# *_override.tf.dir/
+
+# CLI configuration files
+.terraformrc
+terraform.rc
